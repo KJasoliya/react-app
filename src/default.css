@@ -1,0 +1,65 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/bd/af/76/bdaf7600ad567b8251d9951c5e397420.jpg");
+  background-color: grey;
+  font-family: Helvitica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: #FFFFFF;
+}
+
+h1, h3 {
+  margin: 0;
+  text-shadow: 0 0 3px #FF0000;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/236x/e5/47/a5/e547a578794634635212f480b58e091d--free-background-images-background-patterns.jpg");
+  background-color: blue;
+  color: #FFFFFF;
+  text-shadow: 0 0 3px #FF0000;
+  text-align: center;
+  padding: 10px;
+  order: 1;
+  position:relative;
+}
+
+container {
+  background-color: #FFFFFF;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+content {
+  padding: 10px;
+  background-image: url("http://www.yummycrumbs.co.uk/wp-content/uploads/2016/12/grey-background-v1.jpg");
+  background-color: grey;
+  display: -webkit-flex;
+  display: flex;
+  order: 2;
+}
+
+nav {
+  position:relative;
+  width: 100px;
+  order: 1;
+}
+
+main {
+  width: 1100px;
+  order: 2;
+  flex-wrap: wrap;
+}
+
+footer {
+  padding: 10px;
+  background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4765261.jpg");
+  background-color: green;
+  color: #FFFFFF;
+  order: 4;
+  display: flex;
+}
